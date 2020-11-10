@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    display: block;
+}
+
+
+.container{
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    margin-top: 30px;
+
+}
+.cards_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    }
+
+.cards_container img{
+    height: 150px;
+    width: 150px;
+}   
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(49, 56, 56);
+    -webkit-box-shadow: 1px 7px 5px 0px rgba(92,87,92,0.64);
+    -moz-box-shadow: 1px 7px 5px 0px rgba(92,87,92,0.64);
+    box-shadow: 1px 7px 5px 0px rgba(92,87,92,0.64);
+}
+
+.card{
+    margin: 2em;
+  }
